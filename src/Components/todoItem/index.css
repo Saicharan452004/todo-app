@@ -1,0 +1,101 @@
+.list {
+  list-style-type: none;
+}
+.todo-description {
+  font-size: 18px;
+  color: black;
+  font-family: 'serif';
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-edit {
+  background-color: transparent;
+  border: #3367d6 2px solid;
+  border-radius: 12px;
+  padding: 5px;
+  font-family: 'roboto';
+  color: #3367d6;
+  font-size: 12px;
+  height: 30px;
+  width: 80px;
+  margin-right: 20px;
+}
+.button-checkbox {
+  background: transparent;
+  border: black 2px solid;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.checkbox-image {
+  height: 20px;
+  width: 20px;
+}
+.button-delete {
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+}
+.delete-image {
+  height: 28px;
+  width: 27px;
+}
+.todo-item-container {
+  display: flex;
+  justify-content: space-between;
+}
+.input {
+  outline: none;
+  border: #b5b7c4 2px solid;
+  border-radius: 8px;
+  padding: 3px;
+  font-family: 'roboto';
+  color: black;
+  font-size: 15px;
+  height: 25px;
+  width: 190px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+.button-save {
+  background-color: #8b5cf6;
+  border-radius: 12px;
+  border-width: 0px;
+  height: 35px;
+  width: 75px;
+  font-family: 'roboto';
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 576px) {
+  .todo-description {
+    font-size: 14px;
+  }
+  .button-edit {
+    height: 20px;
+    width: 60px;
+    font-size: 10px;
+    padding: 0px;
+  }
+  .button-checkbox {
+    height: 20px;
+    width: 20px;
+  }
+  .input {
+    height: 21px;
+    width: 150px;
+  }
+  .button-save {
+    height: 25px;
+    width: 60px;
+  }
+  .checkbox-image {
+    height: 10px;
+    width: 10px;
+  }
+}
