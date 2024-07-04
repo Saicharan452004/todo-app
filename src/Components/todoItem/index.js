@@ -19,7 +19,7 @@ const TodoItem = props => {
         <button className='button-checkbox' onClick={onClickComplete}>
           <img
             src='https://th.bing.com/th/id/OIP.w5SDYQCwdIy8ru5kTlaeqAHaHa?w=194&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7'
-            className='checkbox-image'
+            className='checkbox-image' alt="2"
           />
         </button>
       )
@@ -66,7 +66,7 @@ const TodoItem = props => {
             <button className='button-delete' onClick={onClickDelete}>
               <img
                 src='https://assets.ccbp.in/frontend/react-js/delete-img.png'
-                className='delete-image'
+                className='delete-image' alt="3"
               />
             </button>
           </div>
