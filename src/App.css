@@ -95,6 +95,7 @@
 }
 .top-container {
   display: flex;
+  justify-content:space-between;
 }
 .image {
   height: 200px;
@@ -131,7 +132,7 @@
     margin-left: 3px;
   }
   .input-container {
-    width: 120px;
+    width: 105px;
     height: 23px;
   }
   .button {
