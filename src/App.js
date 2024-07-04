@@ -97,7 +97,7 @@ class App extends Component {
   }
 
   render() {
-    const {todo, todoList, editingTodoId, editingTodoText} = this.state
+    const {todo,editingTodoId, editingTodoText} = this.state
     const completedArrays = this.filteredResult()
     return (
       <div className='bg-container'>
